@@ -20,9 +20,11 @@ namespace ConsoleAppProject.Models.Entities
             Surname = surname;
         }
 
+
+
         public override string ToString()
         {
-            return $"Name: {Name} {Surname}";
+            return $"Id {Id}, Name: {Name} {Surname}";
         }
     }
 }

@@ -1,0 +1,31 @@
+[
+  {
+    "Id": 0,
+    "Name": "SB123",
+    "classroomType": 1,
+    "Students": [
+      {
+        "Id": 1,
+        "Name": "Ass",
+        "Surname": "HKJG"
+      },
+      {
+        "Id": 2,
+        "Name": "JYG",
+        "Surname": "UKYUIGHYUI"
+      }
+    ]
+  },
+  {
+    "Id": 1,
+    "Name": "AB123",
+    "classroomType": 0,
+    "Students": [
+      {
+        "Id": 3,
+        "Name": "UIH",
+        "Surname": "UIKHYUIH"
+      }
+    ]
+  }
+]

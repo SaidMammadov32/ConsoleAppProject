@@ -8,7 +8,7 @@ namespace ConsoleAppProject.Models
 {
     public enum ClassroomType
     {
-        Backend,
-        Frontend
+        Backend = 0,
+        Frontend = 1
     }
 }

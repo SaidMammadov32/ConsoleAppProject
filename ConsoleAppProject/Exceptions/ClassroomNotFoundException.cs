@@ -12,5 +12,10 @@ namespace ConsoleAppProject.Exceptions
             : base($"Classroom with ID {classroomId} not found.")
         {
         }
+
+        public ClassroomNotFoundException(string message)
+            : base(message)
+        {
+        }
     }
 }
