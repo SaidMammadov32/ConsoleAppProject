@@ -6,7 +6,7 @@ using ConsoleAppProject.Models.Entities;
 using ConsoleAppProject.Services;
 using ConsoleAppProject.Services.Interfaces;
 
-DataService dataService = new();
+IDataService dataService = new DataService();
 
 while (true)
 {

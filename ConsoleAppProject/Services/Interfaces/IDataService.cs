@@ -9,6 +9,9 @@ namespace ConsoleAppProject.Services.Interfaces
 {
     public interface IDataService
     {
+        List<Classroom> Classrooms { get; }
+
+
         public void LoadFromFile();
         public void SaveToFile();
         public void AddClassroom(Classroom classroom);
